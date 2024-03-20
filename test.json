@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "Name": 1,
+            "role": "human"
+        },
+        {
+            "Name": 2,
+            "role": "wizard"
+        },
+        {
+            "Name": 3,
+            "role": "wolf"
+        },
+        {
+            "Name": 4,
+            "role": "prognosticator"
+        },
+        {
+            "Name": 5,
+            "role": "wolf"
+        },
+        {
+            "Name": 6,
+            "role": "human"
+        }
+    ]
+}

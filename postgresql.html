@@ -11,7 +11,10 @@
 </body>
 <script>
   const api="https://script.google.com/macros/s/AKfycbydTSYbkgJBw6vOg3CCdPt_0KliFC1JbtBxSJi0_arHFrCMVDQ7Hep4v0Dt3Fh9Ob46SQ/exec";
-    fetch(api)
+    fetch(api, {
+        redirect: "follow",
+        headers: {"Content-Type": "text/plain"},
+    })
    .then(response => response.json())
    .then(characters => showCharacters(characters.data));
    showCharacters = characters => {
